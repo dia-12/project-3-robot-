@@ -23,12 +23,12 @@ try:
                 frontLeftMotor.start(100)
                 backMotor.start(100)
             else if line:
-                frontRightMotor.start(100)  #one front motor has different speed to make it turn one direction
+                frontRightMotor.start(50)  #one front motor has different speed to make it turn one direction
                 frontLeftMotor.start(100)
                 backMotor.start(100)
             else if light:
                 frontRightMotor.start(100)
-                frontLeftMotor.start(100)
+                frontLeftMotor.start(50)
                 backMotor.start(100)
         else:
             speed = 0
