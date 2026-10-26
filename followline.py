@@ -6,8 +6,8 @@ frontRightMotor = Motor('C')
 frontLeftMotor = Motor('A')
 backMotor = Motor('B')
 
-lineFinder = 7
-lightSensor = 8
+lineFinder = 12
+lightSensor = 2
 
 button = Button(22)
 
